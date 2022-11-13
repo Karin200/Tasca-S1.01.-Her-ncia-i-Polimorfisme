@@ -5,8 +5,12 @@ public class Coche {
 	public static String modelo = "B2";
 	public final double potencia = 2000;
 	
-   public Coche(){
+   public Coche(String modelo){
+	   this.modelo = modelo;
 	    
+   }
+   public Coche() {
+	   
    }
    public static void frenar() {
 	   System.out.println("El vehículo está frenando");
